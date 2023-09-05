@@ -255,6 +255,7 @@ header,
 
 .dropdown {
     display: none;
+    padding: 0px 10px;
 }
 
 .dropdown .dropbtn {
@@ -268,13 +269,14 @@ header,
 
 .dropdown-content {
     display: none;
+    flex-direction: column;
     position: absolute;
-    right: 5px;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     padding: 0px 10px;
+    margin-left: -10px;
 }
 
 .dropdown-content a {
@@ -320,6 +322,45 @@ ul.breadcrumb li a:hover {
     text-decoration: underline;
 }
 
+.mega-menu{
+    max-width: 100%;
+    position: relative;
+}
+.mega-menu i{
+    margin-left: 10px;
+}
+.mega-menu-row{
+    display:none;
+    min-width: 500px;
+    border-bottom:2px solid black;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    position: absolute;
+    margin-top: 12px;
+    gap: 20px;
+
+}
+.mega-menu-col{
+    padding:10px 5px;
+}
+
+.mega-menu-row a{
+    display: block;
+    min-width: 200px;
+}
+
+/* .dropdown-menu{
+    display: block;
+
+} */
+.dropdown-menu .dropdown-content{
+    display: none;
+    flex-direction: column;
+    margin-top: 12px;
+    max-height: 16.2rem;
+    overflow-y: scroll;
+    border-bottom: 2px solid black;
+}
 /* ----------------------------------------------- Footer  -----------------------------------------------*/
 
 footer .container {
