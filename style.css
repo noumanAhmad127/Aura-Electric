@@ -338,6 +338,7 @@ ul.breadcrumb li a:hover {
     position: absolute;
     margin-top: 12px;
     gap: 20px;
+    z-index: 1;
 
 }
 .mega-menu-col{
