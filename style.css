@@ -537,19 +537,16 @@ footer span {
     max-width: 100%;
     padding: 0px 2px 5px 2px;
     margin-top: 10px;
-    overflow: hidden;
 }
 
 .slider-button {
-    padding: 2px 40px;
+    padding: 5px 40px;
     text-align: end;
 }
 
-.slider-button img {
+.slider-button button {
     border: 1px solid black;
-    padding: 2px;
-    width: 15px;
-    height: 15px;
+    padding: 0px 3px;
     align-items: center;
 }
 
@@ -557,6 +554,7 @@ footer span {
     min-height: 300px;
     margin: 0px 6px;
     flex-wrap: nowrap;
+    overflow: hidden;
 }
 
 .images {
