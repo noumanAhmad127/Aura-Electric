@@ -1494,6 +1494,9 @@ footer span {
 .product-images img {
     width: 100%;
 }
+.product-img-large img{
+    height: 350px;
+}
 
 .img-small-row button {
     border: none;
@@ -1501,10 +1504,15 @@ footer span {
     height: 20px;
     max-width: 20px;
 }
-
+.small-images{
+    display: flex;
+}
 .img-small-col {
-    flex-basis: 24%;
+    flex-wrap: nowrap;
+    flex: 20%;
     margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .img-small-col:hover {
@@ -2619,8 +2627,8 @@ th {
 
     .toggle:hover {
         #side-bar-Menu {
-            display: block;
-            top: 4%;
+            /* display: block; */
+            /* top: 4%; */
         }
     }
 
