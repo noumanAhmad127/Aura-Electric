@@ -454,7 +454,6 @@ footer span {
 
 /* Main-Section-Board(Front-case) */
 .front-case {
-    max-width: 1500px;
     background: url('img/main-case.jpg') no-repeat center center /cover;
     min-height: 530px;
     text-align: center;
