@@ -15,7 +15,10 @@
     --buttonSecondaryColor: #f9d986;
 }
 
-
+section{
+    max-width: 1500px !important;
+    margin: auto !important;
+}
 
 input {
     outline: none;
@@ -365,7 +368,9 @@ ul.breadcrumb li a:hover {
 /* ----------------------------------------------- Footer  -----------------------------------------------*/
 
 footer .container {
-    max-width: 80%;
+    position: sticky;
+    bottom: 0%;
+    max-width: 1024px;
 }
 
 footer {
@@ -449,13 +454,14 @@ footer span {
 
 /* Main-Section-Board(Front-case) */
 .front-case {
-    max-width: 100%;
+    max-width: 1500px;
     background: url('img/main-case.jpg') no-repeat center center /cover;
     min-height: 530px;
     text-align: center;
     position: relative;
     color: white;
     margin-top: 10px;
+    margin: auto;
 }
 
 .front-case .main {
@@ -491,7 +497,6 @@ footer span {
 }
 
 /* Middle-case Section */
-
 .middle-case-plan {
     width: 90%;
     min-height: 100px;
@@ -1002,6 +1007,7 @@ footer span {
 
 /* Footer NewsLetter Section */
 .footer-newsletter {
+    max-width: 100% !important;
     background-color: aliceblue;
     padding: 30px;
     text-align: center;
@@ -1509,9 +1515,8 @@ footer span {
 }
 .img-small-col {
     flex-wrap: nowrap;
-    flex: 20%;
+    flex-basis: 20%;
     margin: 10px;
-    overflow: hidden;
     cursor: pointer;
 }
 
@@ -2623,13 +2628,6 @@ th {
 
     .toggle {
         display: block;
-    }
-
-    .toggle:hover {
-        #side-bar-Menu {
-            /* display: block; */
-            /* top: 4%; */
-        }
     }
 
     .input-search input {
