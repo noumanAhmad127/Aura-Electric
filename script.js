@@ -26,9 +26,11 @@ btns.forEach((btn, index) => {
     if (lists[index].style.display === "block" || lists[index].style.display === "") {
       lists[index].style.display = "none";
       icons[index].setAttribute("class","fa-solid fa-chevron-down fa-2xs")
+      // lists[index].style.transition = "all 10s";
     } else {
       lists[index].style.display = "block";
       icons[index].setAttribute("class","fa-solid fa-chevron-up fa-2xs")
+      // lists[index].style.transition = "all 10s";
     }
   });
 });

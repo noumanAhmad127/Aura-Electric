@@ -39,6 +39,7 @@ ul li a {
     color: white;
     padding: 10px 15px;
     word-spacing: 1.5px;
+    transition: all 0.5s;
 }
 
 
@@ -1294,7 +1295,9 @@ footer span {
     flex: 10%;
     max-width: 14%;
 }
-
+.filter-lists{
+    display: block;
+}
 .filter-lists a {
     font-size: 10px;
     font-weight: bold;
